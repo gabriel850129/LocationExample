@@ -11,6 +11,7 @@
 		21ACCF0A2BCF747100743FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCF092BCF747100743FFB /* ContentView.swift */; };
 		21ACCF0C2BCF747200743FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ACCF0B2BCF747200743FFB /* Assets.xcassets */; };
 		21ACCF0F2BCF747200743FFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ACCF0E2BCF747200743FFB /* Preview Assets.xcassets */; };
+		21ACCF162BCF74A000743FFB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCF152BCF74A000743FFB /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		21ACCF092BCF747100743FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21ACCF0B2BCF747200743FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21ACCF0E2BCF747200743FFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21ACCF152BCF74A000743FFB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				21ACCF072BCF747100743FFB /* LocationExampleApp.swift */,
 				21ACCF092BCF747100743FFB /* ContentView.swift */,
+				21ACCF152BCF74A000743FFB /* LocationManager.swift */,
 				21ACCF0B2BCF747200743FFB /* Assets.xcassets */,
 				21ACCF0D2BCF747200743FFB /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				21ACCF0A2BCF747100743FFB /* ContentView.swift in Sources */,
 				21ACCF082BCF747100743FFB /* LocationExampleApp.swift in Sources */,
+				21ACCF162BCF74A000743FFB /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Require Location for provide Map with precise location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Require Location for provide Map with precise location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

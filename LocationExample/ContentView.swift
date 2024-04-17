@@ -7,15 +7,15 @@
 
 import SwiftUI
 
+import MapKit
+
 struct ContentView: View {
+    
+    @StateObject var manager = LocationManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Map(coordinateRegion: $manager.region, showsUserLocation: true)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
